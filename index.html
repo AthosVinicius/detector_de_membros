@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dectector de corpo com javascript</title>
+
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="stats"></div>
+    <div id="info" style='display:true'>
+    </div>
+    <div id="loading" style='display:flex'>
+      <div class="spinner-text">
+        Carregando...
+      </div>
+      <div class="sk-spinner sk-spinner-pulse"></div>
+    </div>
+    <div id='main' style='display:none'>
+      <video id="video" playsinline style="display: true;"></video>
+      <canvas id="output">
+    </div>
+    <ul id="colors" style="display: true"></ul>
+    <script src="js/script.js"></script>
+  </body>
+</html>
