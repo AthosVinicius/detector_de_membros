@@ -1,1 +1,2 @@
-# detector_de_membros
+# Detector de membros do corpo com javascript.
+# TensorflowJs
